@@ -32,6 +32,7 @@ def download_files_from_s3(aws_access_key_id, aws_secret_access_key, bucket_name
             print('No AWS credentials were provided.')
 
 ## Then if the connection is successful, run the below query and replace it with your local location and other variables. It downloads all files from your specified folder at S3 into your computer.
+
 download_files_from_s3(
     aws_access_key_id="xxxx",
     aws_secret_access_key="xxx",
