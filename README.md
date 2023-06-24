@@ -33,10 +33,17 @@ def download_files_from_s3(aws_access_key_id, aws_secret_access_key, bucket_name
 
 ## Then if the connection is successful, run the below query and replace it with your local location and other variables. It downloads all files from your specified folder at S3 into your computer.
 
+
 download_files_from_s3(
+
     aws_access_key_id="xxxx",
+    
     aws_secret_access_key="xxx",
+    
     bucket_name="s3-xx-xxx",
+    
     file_keys=[ 'Pronto/sales-order.csv'],
+    
     local_dir=r'C:\Users\xxx\OneDrive -xxx\xx'
+    
 )
